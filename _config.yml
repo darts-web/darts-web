@@ -3,7 +3,7 @@ title_separator         : "|"
 name                    : &name "darts-web"
 description             : &description "Providing information on the current state of DARTS"
 email                   : s.dehoop-1@tudelft.nl
-logo			: "/assets/img/logo.svg"
+logo			        : "/assets/img/logo.svg"
 #baseurl                 : "/darts-web" # the subpath of your site, e.g. /blog
 url                     : "https://darts-web.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username         : *uname1
@@ -42,8 +42,10 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+ - details.md
+ - members.md
+ - projects.md
 
 # Build settings
 theme: minima
