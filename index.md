@@ -12,66 +12,10 @@ inverse-img: true
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 h3		{color: rgb(44,196,251);display: inline; font-weight: bold;}
-* {box-sizing: border-box;}
-
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
-}
-
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 100px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
-}
 </style>
 </head>
 
 <body>
-<!--	<img style="width: 35%; height: auto;" src="{{site.baseurl}}/assets/img/logo_wider.png" alt="DARTS">
--->
 	<div class="MainBody">
 		<h1 class="page-title">What is DARTS?</h1>
 		<div class="Philosophy" style="padding-left: 15px;">
