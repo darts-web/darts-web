@@ -4,8 +4,9 @@ name                    : &name "darts-web"
 description             : &description "Providing information on the current state of DARTS"
 email                   : s.dehoop-1@tudelft.nl
 #baseurl                 : "/darts-web" # the subpath of your site, e.g. /blog
-logo		        : "logo.png" 
+#logo		        : "logo.png" 
 url                     : "https://darts-web.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+logo	 		: "/darts-web/logo.png"
 github_username         : *uname1
 
 # social links
