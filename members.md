@@ -15,10 +15,10 @@ description: "Collaborators working on this project."
 		
 		<h2>{{ member.role }}</h2>
 		
-		{% if member.github %} 
+<!--		{% if member.github %} 
 			<span class="social-share-googleplus"><a href="https://github.com/{{ member.github }}" title="Github"><img src="{{ "/assets/img/icons/github-icon.png" | prepend: site.baseurl }}" style="height:20px">Github</a></span> 
 		{% endif %}
-		
+-->		
 		{% if member.url %}
 			<span><a href="{{ member.url }}" title="Website"><img src="{{ "/assets/img/icons/url-icon.png"| prepend: site.baseurl }}" style="height:20px">Website</a></span>
 			<br>
