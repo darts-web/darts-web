@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Details
-permalink: /details/
+#permalink: /details/
 header-img: /assets/img/Cogs-banner-01.png
 inverse-img: true
 ---
