@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-header-img: "/assets/img/logo.png"
+#header-img: "logo.png"
 inverse-img: true
 ---
 <html>
