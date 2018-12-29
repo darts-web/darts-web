@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DARTS research projects  
+title: Projects  
 #permalink: /projects/
 author: Stephan de Hoop
 ---

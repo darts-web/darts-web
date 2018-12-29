@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "DARTS team"
+title: "Team"
 description: "Collaborators working on this project."
 ---
 <html>
