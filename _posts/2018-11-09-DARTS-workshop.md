@@ -22,5 +22,5 @@ of Technology (TUD). </p>
     <em>Group photo of the first DARTS workshop on using DARTS for Geothermal Processes.</em>
 </p>
 
-<p>We are planning to orginize several worshop in 2019. If you want to start using DARTS for your Research project, interested in next worshop 
-participation or have any questions, plesae contact <a href = "mailto:D.V.Voskov@tudelft.nl" target="_blank">Denis Voskov</a>.
+<p>We are planning to organize several workshops in 2019. If you want to start using DARTS for your research project, interested in next worshop 
+participation or have any questions, please contact <a href = "mailto:D.V.Voskov@tudelft.nl">Denis Voskov</a>.
