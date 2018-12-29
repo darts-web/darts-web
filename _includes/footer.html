@@ -15,9 +15,6 @@
               {{ site.title | escape }}
             {%- endif -%}
             </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
         </ul>
       </div>
 
@@ -27,6 +24,9 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
+            {%- if site.email -%}
+            <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {%- endif -%}
       </div>
     </div>
 

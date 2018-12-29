@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DARTS projects
+title: DARTS research projects  
 #permalink: /projects/
 author: Stephan de Hoop
 ---
@@ -9,7 +9,7 @@ author: Stephan de Hoop
 <head>
   <style>
     h2  {
-		color: rgb(44,196,251);
+		color: rgb(30,144,255);
 		display: inline; 
 		font-weight: bold;
 		}
@@ -22,7 +22,7 @@ author: Stephan de Hoop
   </style>
 </head>
 
-<h2><a id="Mark">Scalable hybrid framework for a geothermal simulator </a></h2>
+<h2><a id="Mark">Scalable hybrid framework for geothermal simulation </a></h2>
 <div class="sub-section" style="padding-left: 15px;">
 	<p text-align="justify">Various novel computing architectures, like massively parallel and multi-core, as well as computing accelerators, 
 	like GPUs or TPUs, continue to emerge regularly.  
@@ -74,10 +74,12 @@ author: Stephan de Hoop
 	<img src="{{ site.baseurl }}/assets/img/project_photos/comparison_lidar_and_photos.png" width="75%" class="center">
 	<br>
 	<em>Comparison between the High-Resolution LiDAR point cloud data set and color photographs (from inside the cave systems).</em></p>
+<!--
 	<p text-align="justify">My other acedemic interests lie in Uncertainty Quantification, particularly in using coarse-scale models for fine-scale predictions.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/uncertainty_trajectory.png" width="75%" class="center">
 	<br>
 	<em>Taken from de Hoop et al. (2018)<sup>8</sup>. Here we have proposed a method to use coarse-scale models in the prediction of fine-scale response uncertainty.</em></p>
+-->
 	<hr>
 </div>
 <br>        

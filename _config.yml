@@ -1,7 +1,7 @@
 title                   : "Delft Advanced Research Terra Simulator"
 title_separator         : "|"
 name                    : &name "darts-web"
-description             : &description "Providing information on the current state of DARTS"
+description             : &description "Information on the current state of DARTS"
 email                   : s.dehoop-1@tudelft.nl
 #baseurl                 : "/darts-web" # the subpath of your site, e.g. /blog
 #logo		        : "logo.png" 

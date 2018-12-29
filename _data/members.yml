@@ -37,7 +37,7 @@
   visible: true
   
 - name: Xiaocong Lyu
-  role: Black-Oil capabilities
+  role: Black-Oil and foam capabilities
   img: https://d1rkab7tlqy5f1.cloudfront.net/CiTG/Over%20faculteit/Afdelingen/Geoscience%20Engineering/Staff/PhD%20Students/Picture%20Lyu%2C%20Xiaocong.jpg
   github: darts-web
   bio: Xiaocong Lyu is a PhD candidate at TU Delft. He received his master degree in Petroleum Engineering from China University of Petroleum(Beijing) in 2017. Now he works on numerical simulation of foam flow in porous media.
@@ -46,7 +46,7 @@
   visible: true
   
 - name: Kiarash Mansour Pour
-  role: Multi-segmented Well
+  role: Multi-segmented well
   img: https://d1rkab7tlqy5f1.cloudfront.net/CiTG/Over%20faculteit/Afdelingen/Geoscience%20Engineering/Petroleum%20Engineering/Staff/picture%20Mansour%20Pour%2C%20Kiarash.jpg
   github: darts-web
   bio: Kiarash Mansour pour is currently a PhD candidate in Delft University of technology. He received his master degree in Energy Engineering from Politecnico di Milano. His main research project is about the numerical simulation of the Geothermal well.

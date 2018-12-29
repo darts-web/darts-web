@@ -11,7 +11,7 @@ inverse-img: true
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-h3		{color: rgb(44,196,251);display: inline; font-weight: bold;}
+h3		{color: rgb(30,144,255);display: inline; font-weight: bold;}
 </style>
 </head>
 
