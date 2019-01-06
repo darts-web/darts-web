@@ -19,7 +19,7 @@ of Technology (TUD). </p>
 
 <p>
     <img src="{{site.baseurl}}/assets/img/group_photo_workshop.jpg" alt="Woops">
-    <em>Group photo of the first DARTS workshop on using DARTS for Geothermal Processes.</em>
+    <em>Group photo of the first workshop on using DARTS for Geothermal Processes.</em>
 </p>
 
 <p>We are planning to organize several workshops in 2019. If you want to start using DARTS for your research project, interested in next worshop 
