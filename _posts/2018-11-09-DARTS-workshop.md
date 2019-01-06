@@ -15,12 +15,12 @@ was set-up using the Jupyter Notebook environment. Setting up a simple simulatio
 visualizing the result. Second part of the workshop included the simulation of a heterogeneous 3D model and executed in the PyCharm IDE.</p>
 
 <p>The workshop was a great success, for MSc students and staff members of the Civil Engineering and Geosciences (CEG) faculty at Delft University 
-of Technology (TUD). </p>
+of Technology. </p>
 
 <p>
     <img src="{{site.baseurl}}/assets/img/group_photo_workshop.jpg" alt="Woops">
     <em>Group photo of the first workshop on using DARTS for Geothermal Processes.</em>
 </p>
 
-<p>We are planning to organize several workshops in 2019. If you want to start using DARTS for your research project, interested in next worshop 
+<p>We are planning to organize several workshops in 2019. If you want to start using DARTS for your research project, interested in next workshop 
 participation or have any questions, please contact <a href = "mailto:D.V.Voskov@tudelft.nl">Denis Voskov</a>.
