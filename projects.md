@@ -112,7 +112,7 @@ author: Stephan de Hoop
 	approximation has a unique gradient pointing towards the correct solution. The proposed approch is unconditionally stable as can be seem in figure 
 	below. As a result, simulation can perform at larger timesteps in comparison to the traditional Newton-based nonlinear solution.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/convergence_map.png" width="100%" class="center">
-	<em>Convergence map for regular initial guesses for Newton (left) and OBL-contunuity (right).</em> </p>
+	<em>Convergence map for regular initial guesses in OBL-contunuity (left) and conventional Newton (right) solvers.</em> </p>
 	<br>                                                  
 	<hr>
 </div>
