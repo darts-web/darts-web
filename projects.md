@@ -26,8 +26,8 @@ author: Stephan de Hoop
 <div class="sub-section" style="padding-left: 15px;">
 	<p text-align="justify">Various novel computing architectures, like massively parallel and multi-core, as well as computing accelerators, 
 	like GPUs or TPUs, continue to emerge regularly.  
-	In order to harvest the performance benefits of these architectures to the full extent and speed up simulation,  the source code has to be 
-	inevitably rewritten, sometimes almost completely. The biggest challenge here in terms of complexity, variety and size is linearization procedure, 
+	In order to harvest the performance benefits of these architectures to the full extent and speed up the simulation,  the source code has to be 
+	inevitably rewritten, sometimes almost completely. The biggest challenge here in terms of complexity, variety and size is linearization procedure 
 	since it depends on the governing equations, choice of primary unknowns, physical/chemical phenomena taken into account, and other factors. 
 	In this project, we demonstrate how to extract complex physics-related computations from the main simulation loop, leaving only an algebraic 
         multilinear interpolation kernel instead.</p>
@@ -43,8 +43,8 @@ author: Stephan de Hoop
 	<img src="{{ site.baseurl }}/assets/img/project_photos/GPUvsCPU.png" width="75%" class="center">
 	<em> Time spent on linerization of 3-component compositional run in full SPE10 (728 nonlinear iterations).</em> </p>
 	<p text-align="justify"> The framework is implemented in C++11 and exposed into Python coupling the flexibility of the script language with 
-	the performance of C++. Moreover, particular framework components can be extended in Python and still be involved in C++ simulation 
-        process. In addition, all fluid / rock properties, involved in computation of state operators, can be derived in Python without serious impact 
+	the performance of C++. Moreover, particular framework components can be extended in Python and still be involved in the C++ simulation 
+        process. In addition, all fluid / rock properties, involved in the computation of state operators, can be derived in Python without serious impact 
 	on overall simulation performance thanks to OBL. The integrated simulation framework exploits the approach to provide the flexible, modular, 
 	computationally efficient modeling package for various applications, including geothermal<sup>3</sup>, thermal-compositional<sup>4</sup>, and 
 	reactive compositional problems<sup>5</sup>. </p>
@@ -58,10 +58,10 @@ author: Stephan de Hoop
 	reservoirs, located in the Lower Carboniferous (Dinantian carbonates). Pilot projects have encountered heavily karstified reservoir intervals 
 	during the drilling process, resulting in unpredicted hazards. The origin of the karst has been interpreted as a combination of epigenic and 
 	hypogenic processes<sup>6</sup>. Predicting the spatial distribution of hypogenic caves and other discontinuity networks in the subsurface is 
-	currently in an under developed state, mainly due our inability to obtain images of the subsurface at sufficient resolution but also due to the 
+	currently in an underdeveloped state, mainly due to our inability to obtain images of the subsurface at sufficient resolution but also due to the 
 	high complexity of the system (interplay between chemical, mechanical, and flow processes).</p>
 	<p text-align="justify">This project mainly focusses on the development of a reactive transport module for DARTS, in particular on the 
-	implementation of the Element Based Formulation<sup>5</sup> and fully unstructured dicretization methods for (naturally) fractured 
+	implementation of the Element Based Formulation<sup>5</sup> and fully unstructured discretization methods for (naturally) fractured 
 	reservoirs<sup>7</sup>.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/example_gif.gif" width="75%" class="center">
 	<br>
@@ -85,21 +85,17 @@ author: Stephan de Hoop
 <br>        
 <h2><a id="Yang">Flow and reactive transport in high-enthalpy geothermal systems </a></h2>
 <div class="sub-section" style="padding-left: 15px;">
-	<p text-align="justify">This project will focus on the phase-transition induced nonlinear flow problem, in combination with chemical reactions, 
-	within high-enthalpy geothermal systems. In comparison with low-enthalpy geothermal systems limited to production of hot water, the obvious 
-	features of high-enthalpy systems are significantly higher temperature and steam (or water-steam) dominated physical behaviors. Phase transition 
-	is happening due to the heat exchange between the injected cold water and in-situ rock/fluid. In addition, the chemical equilibrium, present in 
-	the original reservoir, may be disturbed by both the fluid transport and reaction with injected water containing different temperature and 
-	chemical species which can become complicated by liquid-vapor phase transition with salt dissolution and precipitation.</p>
+	<p text-align="justify"> This project will focus on the phase-transition induced nonlinear flow problem, in combination with chemical reactions, within high-enthalpy geothermal systems. In comparison with low-enthalpy geothermal systems limited to a production of hot water, the obvious features of high-enthalpy systems are significantly higher temperature and steam (or water-steam) dominated physical behaviors. A phase transition is happening due to the heat exchange between the injected cold water and in-situ rock/fluid. In addition, the chemical equilibrium, present in the original reservoir, may be disturbed by both the fluid transport and reaction with injected water containing different temperature and chemical species which can become complicated by a liquid-vapor phase transition with salt dissolution and precipitation.
+	</p>
 	<p text-align="justify">Because of phase transition and the large variation in thermo-dynamic properties between liquid water and steam, the 
 	nonlinear numerical solution of governing equations in fully-implicit approximation can experience difficulties commonly known as ‘negative 
 	compressibility’.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/neg_compr.gif" width="60%" class="center">
 	<br>
 	<em>Convergence map using Newton update.</em> </p>
-	<p text-align="justify"> A multi-level physics parameterization approach is proposed to solve this problem within Operator-base Linearization (OBL) 
-	framework<sup>1</sup>. In OBL approach, the continuous operators in the covering equations, related to different physical mechanisms (e.g. 
-	convection or conduction), are translated into multi-dimensional tables. In the course of simulation, only the supporting points are evaluated 
+	<p text-align="justify"> A multi-level physics parameterization approach is proposed to solve this problem within Operator-Based Linearization (OBL) 
+	framework<sup>1</sup>. In the OBL approach, the continuous operators in the covering equations, related to different physical mechanisms (e.g. 
+	convection or conduction), are translated into multi-dimensional tables. In the course of a simulation, only the supporting points are evaluated 
 	based on the reference physics while points between them are interpolated. The coarser the physics is, the more linear the operators become. 
 	In our continuation approach, we start with the coarse approximation of the governing physics in pressure-enthalpy parameter-space. Due to a 
 	more linear form of operators, only a few nonlinear iterations reduce residual below the predefined tolerance. Next, the OBL approximation is 
@@ -109,8 +105,8 @@ author: Stephan de Hoop
 	<br>
 	<em>Convergence map using OBL continuation.</em></p>
 	<p text-align="justify"> The proposed continuation approach avoids the negative compressibility phenomena since the problem at coarser 
-	approximation has a unique gradient pointing towards the correct solution. The proposed approch is unconditionally stable as can be seem in figure 
-	below. As a result, simulation can perform at larger timesteps in comparison to the traditional Newton-based nonlinear solution.
+	approximation has a unique gradient pointing towards the correct solution. The proposed method is unconditionally stable as can be seen in the 
+	figure below. As a result, simulation can perform at larger timesteps in comparison to the traditional Newton-based nonlinear solution.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/convergence_map.png" width="100%" class="center">
 	<em>Convergence map for regular initial guesses in OBL-contunuity (left) and conventional Newton (right) solvers.</em> </p>
 	<br>                                                  
@@ -128,8 +124,8 @@ author: Stephan de Hoop
 	very near the well, crucial to overall injectivity, in which liquid mobility is much greater than that further from the well.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/foam.png"> 
 	<em>Foam injection experimental results<sup>9</sup>.</em> </p>
-	<p text-align="justify"> This project aims to predictive modeling of this phenomena. An accurate model should be constructed at continuous core scale and incorporate all important phenomena -
-	phase behavior in the gas-brine system, effective foam model, surfactant model with shear-thinning rheology etc. Once the model is constructed, it will be implemented in ADGPRS framework with 
+	<p text-align="justify"> This project aims to predictive modeling of this phenomena. An accurate model should be constructed at a continuous core scale and incorporate all important phenomena -
+	phase behavior in the gas-brine system, effective foam model, surfactant model with shear-thinning rheology etc. Once the model is constructed, it will be implemented in DARTS framework with 
 	all important governing properties. This model will be compared with experiments and used as an initial guess for a data-driven OBL-based model. Next, the OBL model will be regressed to the 
 	experimental data and serve as a platform for numerical upscaling to the reservoir (field) scale. </p>
 	<hr>
@@ -142,9 +138,9 @@ author: Stephan de Hoop
 	the industry including lower installation cost, resistance to corrosion, and the transparency for monitoring the near well area. Despite this, the long term exploitation of this casing may 
 	introduce additional risks and uncertainties, mechanical deformation and chemical interactions with the fluid and the reservoirs. In addition, the hydrocarbon co-production lead to the multiphase 
 	flow in the well which can have a strong impact on the performance of reservoirs and surface facilities.</p> 
-	<p> In order to use such technologies intelligently, it requires the robust model to capture efficiently the above-mentioned physics in the well.  We will design a numerical framework for predictive 
-	simulation and monitoring of geothermal wells taking into account, thermal, hydraulic, mechanical and chemical interactions coupled with the flow in wellbore and near wellbore  porous media. This 
-	framework will be based on the farther enhanced multi-segmented well model originated from petroleum related reservoir simulation.</p>
+	<p> In order to use such technologies intelligently, it requires a robust model to capture efficiently the above-mentioned physics in the well. We will design a numerical framework for predictive 
+	simulation and monitoring of geothermal wells taking into account, thermal, hydraulic, mechanical and chemical interactions coupled with the flow in a wellbore and near wellbore porous media. This 
+	framework will be based on the farther enhanced multi-segmented well model originated from petroleum-related reservoir simulation.</p>
 	<hr>
 </div>
 <br>

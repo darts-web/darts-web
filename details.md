@@ -18,14 +18,14 @@ inverse-img: true
 	<p><h4>Core simulation capabilities: </h4> 
 	unstructured Two-Point Flux Approximation, Open MP and GPU shared memory parallel, Constraint Pressure Residual linear preconditioner, Multi-Segmented Wells and surface facilities.</p>
 
-	<p><h4>Core pysics: </h4>
+	<p><h4>Core physics: </h4>
 	multiphase thermal-compositional, extended black-oil, general multiphase, chemical precipitation and dissolution, basic foam capabilities.</p>
 
 	<p><h4>Structure: </h4>
 	Python-based pre-processing of space, time and physics discretization with C++ and CUDA core simulation capabilities:</p>
 	
 	<ul>
-	  <li><h4>DARTS</h4>-engine: main kernel for nonlinear solution of governing equation (C++ and CUDA);</li>
+	  <li><h4>DARTS</h4>-engine: main kernel for the nonlinear solution of governing equation (C++ and CUDA);</li>
 	  <li><h4>DARTS</h4>-physics: main physical kernels for industrial applications (C++ and Python);</li>
 	  <li><h4>DARTS</h4>-models: Python-based capabilities for model running and pre/postprocessing;</li>
 	  <li><h4>DARTS</h4>-opt: optimization and data assimilation Python-based software framework.</li>
