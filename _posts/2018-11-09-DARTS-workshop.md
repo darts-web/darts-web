@@ -9,10 +9,10 @@ permalink:  /:categories/:year/:month/:day/:title
 inverse-img: false
 tags:        workshop geothermal
 ---
-<p>On Friday the 9th of November the first workshop of Delft Advanced Research Terra Simulator (DARTS) took place. The workshop mainly focussed on 
-introducing and learning how to use the flexible DARTS modeling software for geothermal aplications using Python front-end. First part of the workshop 
+<p>On Friday the 9th of November the first workshop of Delft Advanced Research Terra Simulator (DARTS) took place. The workshop mainly focused on 
+introducing and learning how to use the flexible DARTS modeling software for geothermal applications using Python front-end. The first part of the workshop 
 was set-up using the Jupyter Notebook environment. Setting up a simple simulation test case, initializing the engine, running the engine, and finally 
-visualizing the result. Second part of the workshop included the simulation of a heterogeneous 3D model and executed in the PyCharm IDE.</p>
+visualizing the result. The second part of the workshop included the simulation of a heterogeneous 3D model and executed in the PyCharm IDE.</p>
 
 <p>The workshop was a great success, for MSc students and staff members of the Civil Engineering and Geosciences (CEG) faculty at Delft University 
 of Technology. </p>
