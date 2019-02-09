@@ -123,7 +123,7 @@ author: Stephan de Hoop
 	in the region of liquid fingering is insensitive to the quality of foam injected before gas and the duration of the period of gas injection. These results suggest that there is a small region 
 	very near the well, crucial to overall injectivity, in which liquid mobility is much greater than that further from the well.
 	<img src="{{ site.baseurl }}/assets/img/project_photos/foam.png"> 
-	<em>Foam injection experimental results<sup>9</sup>.</em> </p>
+	<em>Foam injection experimental results<sup>8</sup>.</em> </p>
 	<p text-align="justify"> This project aims to predictive modeling of this phenomena. An accurate model should be constructed at a continuous core scale and incorporate all important phenomena -
 	phase behavior in the gas-brine system, effective foam model, surfactant model with shear-thinning rheology etc. Once the model is constructed, it will be implemented in DARTS framework with 
 	all important governing properties. This model will be compared with experiments and used as an initial guess for a data-driven OBL-based model. Next, the OBL model will be regressed to the 
@@ -169,9 +169,11 @@ author: Stephan de Hoop
 	  <li> Karimi-Fard, M., Durlofsky, L. J., & Aziz, K. (2003, January). An efficient discrete fracture model applicable for general purpose reservoir simulators. In SPE Reservoir Simulation Symposium. Society of Petroleum Engineers. 
 		<a href = "https://doi.org/10.2118/79699-MS" target="_blank">doi:10.2118/79699-MS</a>
 	  </li>
+<!--
 	  <li> de Hoop, S., Voskov, D., Vossepoel, F., & Jung, A. (2018). Quantification of coarsening effect on response uncertainty in reservoir simulation. In Ecmor xvi-16th european conference on the mathematics ofoil recovery. 
 		<a href = "https://10.3997/2214-4609.201802223" target="_blank">doi:10.3997/2214-4609.201802223</a>
 	  </li>
+-->
 	  <li> Gong J., Vincent-Bonnieu S., Kamarul Bahrim R., Groenenboom J., Farajzadeh R., Rossen W. (2018)
 		Modelling of liquid injectivity in surfactant-alternating-gas foam enhanced oil recovery. In SPE EOR
 		Conference at Oil and Gas West Asia. Society of Petroleum Engineers, 2018.
