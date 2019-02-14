@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "First official presentation of reserach performed in DARTS framework"
+title:      "Presentation of reserach performed in DARTS"
 subtitle:   ""
 date:       2019-02-14 13:30:00 +0200
 categories: blogPost
@@ -17,4 +17,5 @@ tags:        darts presentation
     <em>Presentation at 44th Stanford Geothermal Workshop.</em>
 </p>
 
-<p>The conference paper can be found at <a href = "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2019/Wang6.pdf>44th Stanford Geothermal Workshop </a>.
+<p>The conference paper can be found at <a href = ""https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2019/Wang6.pdf" target="_blank">44th Stanford Geothermal Workshop </a>.
+</p>
