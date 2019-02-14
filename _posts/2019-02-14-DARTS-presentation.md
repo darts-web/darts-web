@@ -17,4 +17,4 @@ tags:        darts presentation
     <em>Presentation at 44th Stanford Geothermal Workshop.</em>
 </p>
 
-<p>The conference paper can be found at href = "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2019/Wang6.pdf>44th Stanford Geothermal Workshop </a>.
+<p>The conference paper can be found at <a href = "https://pangea.stanford.edu/ERE/db/GeoConf/papers/SGW/2019/Wang6.pdf>44th Stanford Geothermal Workshop </a>.
