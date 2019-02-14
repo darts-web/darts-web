@@ -31,10 +31,10 @@ h3		{color: rgb(30,144,255);display: inline; font-weight: bold;}
 			<h3>Terra:</h3> the developed framework is utilized for forward and inverse problems in petroleum engineering, low- and high-enthalpy geothermal applications, subsurface storage and subsurface integrity. The primary focus and developed capabilities are currently cover low-enthalpy geothermal operations which include multicomponent multiphase flow of mass and heat with complex chemical interactions. Another focus is on thermal-compositional processes for Enhanced Oil Recovery.  
 			</p>
 			<p text-align="justify">
-			<h3>Simulator:</h3> the main simulation kernel implemented on multi-core CPU and many-core GPU architectures. Advance multiscale nonlinear formulation improves the performance of forward and inverse models. Additional afford invested in representative proxy models for complex subsurface processes including multiphase multicomponent flow.  
+			<h3>Simulator:</h3> the main simulation kernel implemented on multi-core CPU and many-core GPU architectures. Advance multiscale nonlinear formulation improves the performance of forward and inverse models. Additional afford invested in representative proxy models for complex subsurface processes including multiphase multicomponent flow.			
 			</p>
-		</div>
-	</div>
+<!--		</div>
+	</div> -->
 	<div class="BlogPosts">
 		<h1 class="page-title">DARTS posts</h1>
 		{% for post in site.posts %}
@@ -58,10 +58,11 @@ h3		{color: rgb(30,144,255);display: inline; font-weight: bold;}
 	</div>
 	&emsp;
 
-</body>
-</html>
+<!--</body>
+</html> 
 Some general links: <br>
 [TU Delft website][TUD] <br>
 
 [TUD]: https://www.tudelft.nl
 [link_to_repo]: https://github.com/darts-web/darts-web
+-->
