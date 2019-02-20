@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2018-11-9 13:30:00 +0200
 categories: blogPost
 author:     "Stephan de Hoop"
-permalink:  /:categories/:year/:month/:day/:title
+permalink:  /:categories/:year/:month/:day/:title.html
 inverse-img: false
 tags:        workshop geothermal
 ---

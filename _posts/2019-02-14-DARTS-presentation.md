@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2019-02-14 13:30:00 +0200
 categories: blogPost
 author:     "Denis Voskov"
-permalink:  /:categories/:year/:month/:day/:title
+permalink:  /:categories/:year/:month/:day/:title.html
 inverse-img: false
 tags:        darts presentation
 ---
