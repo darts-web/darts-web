@@ -11,7 +11,7 @@
    
 - name: Mark Khait
   role: Main developer of simulation engine and infrastructure
-  img: https://d1rkab7tlqy5f1.cloudfront.net/CiTG/Over%20faculteit/Afdelingen/Geoscience%20Engineering/Staff/PhD%20Students/RTEmagicC_Mark_Khait_01.jpg%5B1%5D.jpg
+  img: /assets/img/team/mark.jpg
   github: darts-web
   bio: Mark Khait is a PhD student in Petroleum Engineering at Delft University of Technology. His current research interests include reservoir simulation, nonlinear solvers, parallel computations, many-core architectures and deep learning. Previously, Mark worked for eight years as a Senior Researcher at Rosneft Oil Company. He received an MSc in Information Security from Ufa State Aviation Technical University.
   url: https://www.tudelft.nl/citg/over-faculteit/afdelingen/geoscience-engineering/sections/petroleum-engineering/staff/phd-students/m-mark-khait-msc/
